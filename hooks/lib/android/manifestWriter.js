@@ -1,7 +1,7 @@
 /**
 Class injects plugin preferences into AndroidManifest.xml file.
 */
-
+const fs = require('fs');
 var path = require('path');
 var xmlHelper = require('../xmlHelper.js');
 
